@@ -6,7 +6,7 @@ const colorNameLuminosity = process.argv[3];
 
 const colorLuminosity = randomColor({
   luminosity: colorNameLuminosity,
-  hue: colorName
+  hue: colorName,
 });
 
 console.log(
@@ -19,10 +19,8 @@ console.log(
     #####         #####
     ###################
     ###################
-    ###################`
-  )
+    ###################`),
 );
-
 
 // 2 Solution
 // import chalk from 'chalk';
