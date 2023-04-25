@@ -13,5 +13,11 @@
   "devDependencies": {
     "eslint-config-upleveled": "^4.1.8",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "convert-css-color-name-to-hex": "^0.1.1",
+    "randomcolor": "^0.6.2",
+    "strip-ansi": "^7.0.1"
   }
 }
